@@ -1,0 +1,58 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+dl{
+	overflow: hidden;
+}
+
+dl>dt{
+	
+	float: left;
+	margin-right: 20px;
+}
+dd{
+	line-height: 2;
+}
+
+img{
+	width: 100px;
+	height: auto;
+}
+
+ul>li{
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
+
+#warp{
+	width: 400px;
+	height: 600px;
+	margin: 50px 100px;
+}
+
+ol li{
+	margin-left: 20px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+#foot{
+	margin-left: 100px;
+}
+.span{
+	width: 60px;
+}
+
+.item_active{
+	border: 1px solid #f00;
+	color: #f00;
+}
+
+

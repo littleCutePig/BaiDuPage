@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> 分页</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+		
+	<div id="warp">
+		<ul>
+			<li>
+				<dl>
+					<dt><img src="1.png" ></dt>
+					<dd>
+						<p>钢铁是怎么炼成的</p>
+						<p>黑车斯基</p>
+						<p>俄罗斯出版社</p>
+					</dd>
+				</dl>
+			</li>
+		</ul>
+	</div>
+
+	<div id="foot">
+		<ol id="foot_ol">
+			<li class="span"><span id="prve" >上一页</span></li>
+			<li class="item_active">1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li class="span"><span id="next" >下一页</span></li>
+		</ol>
+	</div>
+	<script type="text/javascript">
+		new Page({
+			warp : "warp",
+			foot_ol : "foot_ol",
+			prve : "prve",
+			next : "next"
+		});
+        
+	</script>
+</body>
+</html>
